@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/30-day-mean-challenge-dev',
+	db: 'mongodb://localhost/clubs-manager-dev',
 	app: {
-		title: '30-day-MEAN-challenge - Development Environment'
+		title: 'clubs-manager'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
