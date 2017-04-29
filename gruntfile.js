@@ -157,6 +157,8 @@ module.exports = function(grunt) {
 		grunt.config.set('applicationCSSFiles', config.assets.css);
 	});
 
+    grunt.loadNpmTasks('grunt-node-inspector');
+
 	// Default task(s).
 	grunt.registerTask('default', ['lint', 'concurrent:default']);
 
