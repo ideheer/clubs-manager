@@ -1,7 +1,7 @@
 {
   "name": "30-day-mean-challenge",
   "description": "Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Joshua Rosaaen",
   "engines": {
     "node": "0.10.x",
