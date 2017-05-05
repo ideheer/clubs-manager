@@ -2,7 +2,7 @@
 
 module.exports = {
 	port: 443,
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/30-day-mean-challenge',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://root:root@ds125481.mlab.com:25481/clubs-manager',
 	assets: {
 		lib: {
 			css: [

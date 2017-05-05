@@ -1,7 +1,7 @@
 'use strict';
 //test
 module.exports = {
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://<meanuser>:<meanpass>@ds123331.mlab.com:23331/meanchallenge',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://root:root@ds125481.mlab.com:25481/clubs-manager',
 	assets: {
 		lib: {
 			css: [
